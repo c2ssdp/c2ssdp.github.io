@@ -1,0 +1,60 @@
+site_name: 서비스디자인실 기획파트
+
+
+nav:
+  - 기획파트: 
+    - index.md
+  - 미니사이트: 
+    - '미니사이트 소개': '01.md'
+    - '백오피스 설정' : '01-01.md'
+    - '게임 세팅' : '01-02.md'
+    - '메뉴/카테고리 관리' : '01-03.md'
+
+
+#  - 제작요청서: bhttps://docs.google.com/presentation/d/1O1db4-C3MQkfClc8i_0mYv-g0I8p-mU01_LdeDvkUS8/edit#slide=id.p1
+#  - 디자인 가이드: https://www.figma.com/design/WgK9JKr1EqZYWd7c7BIYMk/minisite_design_guide?node-id=0-1&t=wv4RdJ2Or9OI4zxd-1
+#  - 미니사이트 리스트: https://docs.google.com/spreadsheets/d/1FqzWwe8BJU2gsWVj7Iw0nFCRYJpSuJGIgqgV7VI5Vsk/edit#gid=0
+
+
+theme:
+    name: material
+  
+    palette: 
+      primary: black
+      accent: pink
+
+    font:
+      text: Pretendard
+
+    logo: /img/logo.png
+    favicon: /img/favicon.ico
+
+    features:
+    - navigation.tabs #상단에 탭 스타일 메뉴 추가
+    - navigation.tabs.sticky #탭 고정
+    - navigation.expand #네비 자동 펼쳐짐
+    #- navigation.path #현재 페이지 경로 표시
+    - navigation.indexes #인덱스 페이지 활성화 
+    - toc.integrate  #네비게이션 통합
+    - toc.follow #앵커 팔로잉
+    - navigation.top #상단으로 이동 버튼 추가
+    - search.suggest #검색 자동 완성
+    - search.highlight #검색어 하이라이트
+    - content.code.copy #코드 블록에 "복사" 버튼 추가
+    - navigation.instant  # 페이지 전환 속도 향상
+    - navigation.instant.progress #페이지 로딩 진행률
+
+
+
+
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+
+copyright: © Com2uS Corp. All Rights Reserved.
+
+extra:
+  generator: false
